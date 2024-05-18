@@ -2,7 +2,7 @@
   "name": "earnstayserver",
   "version": "1.0.0",
   "description": "Your server application description",
-  "main": "src/server.js",
+  "main": "test.js",
   "scripts": {
     "start": "node test.js"
   },
