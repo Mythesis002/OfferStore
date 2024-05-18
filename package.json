@@ -4,11 +4,11 @@
   "description": "Your server application description",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node test.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "cors": "^2.8.5",
+    "body-parser",
     "express": "^10.5.0"
   }
 }
