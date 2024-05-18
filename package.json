@@ -1,14 +1,16 @@
 {
-  "name": "earnstayserver",
+  "name": "telegram-webhook-server",
   "version": "1.0.0",
-  "description": "Your server application description",
-  "main": "test.js",
+  "description": "A simple server to handle Telegram bot webhooks",
+  "main": "text.js",
   "scripts": {
-    "start": "node test.js"
+    "start": "node text.js"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "body-parser",
-    "express": "^10.5.0"
-  }
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "author": "earnstay",
+  "license": "MIT"
 }
